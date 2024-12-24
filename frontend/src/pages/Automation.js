@@ -162,7 +162,7 @@ export default function Automation() {
           </p>
           <img className=" h-20" src="./doublearrow.png" alt="" />
         </div>
-        <div className=" bg-[#1F1F1F] flex gap-32  h-screen w-screen">
+        {/* <div className=" bg-[#1F1F1F] flex gap-32  h-screen w-screen">
           <div  className=" mt-40 ml-60  ">
           <img
       className="h-[500px] w-[400px] hover:blur-[1px] hover:scale-105 transition-all ease-linear  rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50"
@@ -197,7 +197,7 @@ export default function Automation() {
           </div>
           </div>
           
-       </div>
+       </div> */}
        {/* **************************************** */}
        <div className="  flex gap-8  h-screen w-screen">
 

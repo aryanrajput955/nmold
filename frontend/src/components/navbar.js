@@ -162,11 +162,11 @@ const Navbar = () => {
             : `z-[10000] h-auto transition-all ease-linear bg-[#1f1f1f] text-white w-[15rem] flex flex-col justify-center absolute top-[56px] left-[52rem]`
         }`}
       >
-        <Link to={"/industrial-automation"}>
+        {/* <Link to={"/industrial-automation"}>
         <p className="cursor-pointer px-5 py-3 transition-all duration-300 ease-linear hover:bg-[#0088fe]">
           Industrial Automation
         </p>
-        </Link>
+        </Link> */}
         <Link to={"/home-automation"}>
         <p className="cursor-pointer px-5 py-3 transition-all duration-300 ease-linear hover:bg-[#0088fe]">
           Home Automation
