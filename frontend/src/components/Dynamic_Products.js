@@ -51,6 +51,7 @@ const Dynamic_Products = () => {
                 {/* Specifications section 1 */}
                 <div
                     data-aos='fade-left'
+					data-aos-once='true'
                     data-aos-offset='400'
                     className='mt-10 lg:mt-0 lg:ml-14 flex-1'>
                     <h1 className='josefin text-2xl lg:text-4xl'>{matchedProduct.product_name}</h1>
