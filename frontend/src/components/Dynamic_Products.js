@@ -16,18 +16,23 @@ const Dynamic_Products = () => {
         product_imageURL: '',
     });
 
-    useEffect(() => {
-        axios
-            .get('http://localhost:8080/product-info')
-            .then((response) => {
-                setProductPage(response.data);
-                const prod = response.data.find((product) => {
-                    return product.product_name === params.id;
-                });
-                setMatchedProduct(prod);
-            })
-            .catch((err) => console.log(err));
-    }, [params.id]);
+	useEffect(() => {
+		axios
+			.get('https://nmold-api.vercel.app/product-info')
+			.then((response) => {
+				setProductPage(response.data)
+				const prod = response.data.find((product) => {
+					return product.product_name === params.id
+				})
+				// console.log()
+				setMatchedProduct(prod)
+			})
+			.catch((err) => console.log(err))
+	}, [])
+
+	console.log(params.id)
+
+	// console.log(matchedProduct.product_imageURL)
 
     return (
         <>
