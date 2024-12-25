@@ -105,13 +105,15 @@ const Navbar = () => {
           Consulting
         </p>
           </Link>
+          <Link to={"/engineering"}>
         <p
           onMouseEnter={() => setService2(!service2)}
           onMouseLeave={() => setService2(true)}
           className="cursor-pointer px-5 py-3 transition-all duration-300 ease-linear hover:bg-[#0088fe]"
-        >
+          >
           Engineering
         </p>
+          </Link>
         <Link to={"/lighting"}>
         <p className="cursor-pointer px-5 py-3 transition-all duration-300 ease-linear hover:bg-[#0088fe]"
         >
@@ -121,7 +123,7 @@ const Navbar = () => {
       </div>
      
       {/* Engineering Dropdown */}
-      <div
+      {/* <div
         onMouseEnter={() => {
           setService(false);
           setService2(false);
@@ -145,7 +147,7 @@ const Navbar = () => {
         <p className="cursor-pointer px-5 py-3 transition-all duration-300 ease-linear hover:bg-[#0088fe]">
           MCC panels
         </p>
-      </div>
+      </div> */}
       {/*Automation Dropdown */}
       <div
         onMouseEnter={() => {

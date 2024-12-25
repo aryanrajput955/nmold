@@ -20,6 +20,7 @@ import Lighting_automation from "./pages/automation/lighting_automation";
 import Dynamic_Products from "./components/Dynamic_Products";
 import { useEffect } from "react";
 import Bind_automation from "./pages/automation/bind_automation";
+import Engineering from "./pages/Engineering";
 AOS.init();
 
 
@@ -83,6 +84,10 @@ const App = () => {
     {
       path:"bind-automation",
       element:<><Navbar/><Bind_automation/></>
+    },
+    {
+      path:"engineering",
+      element:<><Navbar/><Engineering/></>
     }
   ]);
   
