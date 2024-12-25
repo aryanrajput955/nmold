@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Lighting_products from './Lighting_products'
-import bulb1 from '../images/bulb.png'
-import bulb2 from '../images/bulb2.png'
+// import bulb1 from '../images/bulb.png'
+// import bulb2 from '../images/bulb2.png'
 import down_arrow from '../images/down_arrow.png'
 import { Link } from 'react-router-dom'
 

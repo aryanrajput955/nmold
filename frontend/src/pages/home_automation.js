@@ -1,6 +1,14 @@
 import React from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// Import required modules
+import { Autoplay, Pagination } from "swiper/modules";
 const Home_automation = () => {
 
   const [showMore, setShowMore] = useState(false);
@@ -12,6 +20,21 @@ const Home_automation = () => {
   return (
     <>
       <div>
+        <Swiper
+                    spaceBetween={30}
+                    centeredSlides={true}
+                    autoplay={{
+                      delay: 3000,
+                      disableOnInteraction: false,
+                    }}
+                    pagination={{
+                      clickable: true,
+                    }}
+                    modules={[Autoplay, Pagination]}
+                    className="mySwiper"
+                  >
+
+    <SwiperSlide>
         <div data-aos="fade-up" data-aos-delay="150" className=' flex'>
           <div className=' ml-20 mt-40'>
             <h1 className=' font-semibold bg-gradient-to-tr  text from-yellow-500 via-blue-500 to-indigo-500 text-transparent bg-clip-text font-josefin text-8xl'>
@@ -25,6 +48,15 @@ const Home_automation = () => {
             <img className=' ml-40 object-cover h-[600px]' src='./hm.png' alt=''></img>
           </div>
         </div>
+    </SwiperSlide>
+    <SwiperSlide>
+      <div>
+
+        <img className=' object-cover h-[600px] w-full' src='./banner.png'>
+        </img>
+      </div>
+    </SwiperSlide>
+                  </Swiper>
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
           <h2 data-aos="fade-right" data-aos-once="true" class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Why Choose Home Automation ?</h2>
           <p data-aos="fade-right" data-aos-once="true" class="mb-12 text-lg text-gray-500">Home automation is becoming increasingly popular because of the many benefits it offers:</p>
