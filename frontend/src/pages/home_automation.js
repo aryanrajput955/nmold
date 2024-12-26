@@ -34,32 +34,48 @@ const Home_automation = () => {
                     className="mySwiper"
                   >
 
-    <SwiperSlide>
-        <div data-aos="fade-up" data-aos-delay="150" className=' flex'>
-          <div className=' ml-20 mt-40'>
-            <h1 className=' font-semibold bg-gradient-to-tr  text from-yellow-500 via-blue-500 to-indigo-500 text-transparent bg-clip-text font-josefin text-8xl'>
-              Revolutionize<br /> &ensp;Your Home
-            </h1>
-            <p className=' text-gray-800 text-lg w-[550px] ml-10  mt-5  font-medium font-jost'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem libero enim voluptas, reiciendis provident molestias, numquam quis explicabo veritatis a reprehenderit accusantium culpa neque beatae dicta ducimus. Maxime impedit consequatur sunt asperiores minima possimus esse nisi eum! Illum, tempora hic?
-            </p>
-          </div>
-          <div>
-            <img className=' ml-40 object-cover h-[600px]' src='./hm.png' alt=''></img>
-          </div>
-        </div>
-    </SwiperSlide>
-    <SwiperSlide>
-      <div>
+<SwiperSlide>
+  <div
+    data-aos="fade-up"
+    data-aos-delay="150"
+    className="flex flex-col-reverse lg:flex-row items-center lg:items-start"
+  >
+    {/* Text Content */}
+    <div className="px-6 lg:px-20 mt-10 lg:mt-40">
+      <h1 className="font-semibold bg-gradient-to-tr text from-yellow-500 via-blue-500 to-indigo-500 text-transparent bg-clip-text font-josefin text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+        Revolutionize<br />
+        &ensp;Your Home
+      </h1>
+      <p className="text-gray-800 text-base sm:text-lg w-full sm:w-[90%] md:w-[70%] lg:w-[550px] ml-0 lg:ml-10 mt-5 font-medium font-jost">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem libero enim voluptas, reiciendis provident molestias, numquam quis explicabo veritatis a reprehenderit accusantium culpa neque beatae dicta ducimus. Maxime impedit consequatur sunt asperiores minima possimus esse nisi eum! Illum, tempora hic?
+      </p>
+    </div>
 
-        <img className=' object-cover h-[600px] w-full' src='./banner.png'>
-        </img>
-      </div>
-    </SwiperSlide>
+    {/* Image */}
+    <div className="flex justify-center lg:ml-40">
+      <img
+        className="object-cover h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] w-full max-w-[400px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-none"
+        src="./hm.png"
+        alt=""
+      />
+    </div>
+  </div>
+</SwiperSlide>
+
+<SwiperSlide>
+  <div>
+    <img
+      className="object-cover h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] w-full"
+      src="./banner.png"
+      alt=""
+    />
+  </div>
+</SwiperSlide>
+
                   </Swiper>
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
-          <h2 data-aos="fade-right" data-aos-once="true" class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Why Choose Home Automation ?</h2>
-          <p data-aos="fade-right" data-aos-once="true" class="mb-12 text-lg text-gray-500">Home automation is becoming increasingly popular because of the many benefits it offers:</p>
+          <h2 data-aos="fade-right" data-aos-once="true" class="mb-1 text-3xl font-josefin font-extrabold leading-tight text-gray-900">Why Choose Home Automation ?</h2>
+          <p data-aos="fade-right" data-aos-once="true" class="mb-12 text-lg text-gray-500 font-jost">Home automation is becoming increasingly popular because of the many benefits it offers:</p>
           <div class="w-full">
             <div class="flex flex-col w-full mb-10 sm:flex-row">
               <div class="w-full mb-10 sm:mb-0 sm:w-1/2">

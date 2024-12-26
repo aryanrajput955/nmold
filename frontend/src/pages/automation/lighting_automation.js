@@ -58,7 +58,7 @@ const Lighting_automation = () => {
                     <div class="mb-10 lg:mb-0 ">
                         <h1
                             class="mt-0 mb-3 text-3xl font-bold leading-tight sm:text-4xl sm:leading-tight md:text-[40px] md:leading-tight text-white ">
-                            Start building automated serverless forms</h1>
+                            Start building automated<br/> home today!</h1>
                         <p
                             class="w-full text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed text-white">
                         </p>
