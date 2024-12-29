@@ -293,12 +293,14 @@ optimum comfort and efficiency. Set conditions or schedules for fully automated 
 your HVAC system while saving energy.
 
                 </p>
+                <Link to={"/hvac-automation"}>
                 <button
                   type="button"
                   className="self-start px-6 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md shadow-lg hover:bg-blue-700 hover:scale-105 transition-transform duration-300"
-                >
+                  >
                   See more
                 </button>
+                  </Link>
               </div>
             </div>
 
@@ -323,12 +325,14 @@ TV, Music Systems and multimedia components and home theatre are integrated for
 maximum ease and enjoyment.
 
                     </p>
+                    <Link to={"/multimedia-automation"}>
                     <button
                       type="button"
                       className="self-start px-6 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md shadow-lg hover:bg-blue-700 hover:scale-105 transition-transform duration-300"
-                    >
+                      >
                       See more
                     </button>
+                      </Link>
                   </div>
                 </div>
 
@@ -349,12 +353,14 @@ maximum ease and enjoyment.
 notification for unfamiliar people and record their clip. Smart VDP systems and Smart video
 surveillance and much more for a secure home and building.
                     </p>
+                    <Link to={"/security-automation"}>
                     <button
                       type="button"
                       className="self-start px-6 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md shadow-lg hover:bg-blue-700 hover:scale-105 transition-transform duration-300"
-                    >
+                      >
                       See more
                     </button>
+                      </Link>
                   </div>
                 </div>
 
@@ -376,12 +382,14 @@ health and safety come first. Monitor your home air quality to ensure your famil
 polluted environment like ours. Monitor your energy usage and integrate your fire security
 system for complete peace of mind.
                     </p>
+                    <Link to={"/monitor-automation"}>
                     <button
                       type="button"
                       className="self-start px-6 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md shadow-lg hover:bg-blue-700 hover:scale-105 transition-transform duration-300"
-                    >
+                      >
                       See more
                     </button>
+                      </Link>
                   </div>
                 </div>
 

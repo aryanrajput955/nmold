@@ -21,6 +21,10 @@ import Dynamic_Products from "./components/Dynamic_Products";
 import { useEffect } from "react";
 import Bind_automation from "./pages/automation/bind_automation";
 import Engineering from "./pages/Engineering";
+import Heating_automation from "./pages/automation/heating_automation";
+import Multimedia from "./pages/automation/multimedia";
+import MonitorAndServices from "./pages/automation/monitorandservices";
+import Security from "./pages/automation/security";
 AOS.init();
 
 
@@ -88,7 +92,24 @@ const App = () => {
     {
       path:"engineering",
       element:<><Navbar/><Engineering/></>
-    }
+    },
+    {
+      path:"hvac-automation",
+      element:<><Navbar/><Heating_automation/></>
+    },
+    {
+      path:"multimedia-automation",
+      element:<><Navbar/><Multimedia/></>
+    },
+    {
+      path:"monitor-automation",
+      element:<><Navbar/><MonitorAndServices/></>
+    },
+
+    {
+      path:"security-automation",
+      element:<><Navbar/><Security/></>
+    },
   ]);
   
   useEffect(() => {
