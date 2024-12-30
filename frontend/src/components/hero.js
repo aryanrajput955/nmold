@@ -40,10 +40,8 @@ const Hero = () => {
             </i> 
           </h2>
           <p className="text-white font-jost  text-xs sm:text-sm md:text-base lg:text-lg mt-4 w-full md:w-[90%] lg:w-[500px]">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
-            commodi ad porro quo. Dolorem illum, modi, maiores aperiam tenetur
-            odio voluptatum fugiat magni impedit, error voluptas recusandae.
-            Provident, nisi quas.
+NMOLD is a leading provider of premium lighting and home automation solutions, dedicated to transforming living spaces into smart, energy-efficient environments. Specializing in state-of-the-art lighting designs and cutting-edge automation technologies.
+
           </p>
           <div className="mt-6">
             <Link to={"/contact"}>
