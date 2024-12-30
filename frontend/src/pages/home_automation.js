@@ -409,12 +409,14 @@ system for complete peace of mind.
                      Personalize your spaces for better visualization and immersive
                     feel for easy remote operations.
                     </p>
+                    <Link to={"/visualization-automation"}>
                     <button
                       type="button"
                       className="self-start px-6 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md shadow-lg hover:bg-blue-700 hover:scale-105 transition-transform duration-300"
-                    >
+                      >
                       See more
                     </button>
+                      </Link>
                   </div>
                 </div>
 

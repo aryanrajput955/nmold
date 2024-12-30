@@ -25,6 +25,7 @@ import Heating_automation from "./pages/automation/heating_automation";
 import Multimedia from "./pages/automation/multimedia";
 import MonitorAndServices from "./pages/automation/monitorandservices";
 import Security from "./pages/automation/security";
+import Visualization from "./pages/automation/visualization";
 AOS.init();
 
 
@@ -109,6 +110,10 @@ const App = () => {
     {
       path:"security-automation",
       element:<><Navbar/><Security/></>
+    },
+    {
+      path:"visualization-automation",
+      element:<><Navbar/><Visualization/></>
     },
   ]);
   
