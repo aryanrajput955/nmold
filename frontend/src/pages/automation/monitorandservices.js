@@ -33,7 +33,7 @@ const MonitorAndServices = () => {
 			</div>
 			<div className='bg-black h-[70vh] flex justify-between px-40 items-center'>
 				<div className=' text-white'>
-					<h2 class='text-4xl font-josefin font-semibold text-gray-900 dark:text-white'>
+					<h2 class='text-4xl font-josefin font-semibold text-white dark:text-white'>
 						Introduction to Monitor & Services
 					</h2>
 					<p class='text-lg font-jost w-[40rem] mt-4'>

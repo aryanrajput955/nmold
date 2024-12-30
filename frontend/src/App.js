@@ -26,6 +26,7 @@ import Multimedia from "./pages/automation/multimedia";
 import MonitorAndServices from "./pages/automation/monitorandservices";
 import Security from "./pages/automation/security";
 import Visualization from "./pages/automation/visualization";
+import Fullintegration from "./pages/automation/fullintegration";
 AOS.init();
 
 
@@ -114,6 +115,10 @@ const App = () => {
     {
       path:"visualization-automation",
       element:<><Navbar/><Visualization/></>
+    },
+    {
+      path:"fullintegration",
+      element:<><Navbar/><Fullintegration/></>
     },
   ]);
   

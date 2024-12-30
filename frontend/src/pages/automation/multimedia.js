@@ -16,7 +16,7 @@ const Multimedia = () => {
 						<br /> MULTIMEDIA
 					</h1>
 					<h1 className='font-josefin font-semibold leading-snug text-center text-5xl sm:text-6xl md:text-7xl text-deep-orange-50 absolute'>
-						WELCOME TO
+						WELCOME TO NMOLD
 						<br /> MULTIMEDIA
 					</h1>
 				</div>
@@ -25,7 +25,7 @@ const Multimedia = () => {
 				<div className='relative w-full h-[25rem] sm:h-[30rem] md:h-[35rem]'>
 					<img
 						className='absolute inset-0 w-full h-full object-cover z-0'
-						src='./blind3.jpg'
+						src='./multimedia.png'
 						alt='Blind Automation'
 					/>
 					{/* Overlay Div */}
@@ -34,7 +34,7 @@ const Multimedia = () => {
 			</div>
 			<div className='bg-black h-[70vh] flex justify-between px-40 items-center'>
 				<div className=' text-white'>
-					<h2 class='text-4xl font-josefin font-semibold text-gray-900 dark:text-white'>
+					<h2 class='text-4xl font-josefin font-semibold  dark:text-white'>
 						Introduction to Multimedia
 					</h2>
 					<p class='text-lg font-jost w-[40rem] mt-4'>
@@ -51,7 +51,7 @@ const Multimedia = () => {
 				<div>
 					<img
 						className='h-[420px] aspect-square object-cover'
-						src={img1}
+						src="./multimedia2.png"
 					/>
 				</div>
 			</div>

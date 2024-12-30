@@ -438,12 +438,14 @@ blinds, energy use/monitoring, AV, security, door entry. Fully automated (becaus
 to use phone every now and then) and also All at the touch of a button on the wall, your
 phone/tablet when you want to.
                     </p>
+                    <Link to={"/fullintegration"}>
                     <button
                       type="button"
                       className="self-start px-6 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md shadow-lg hover:bg-blue-700 hover:scale-105 transition-transform duration-300"
-                    >
+                      >
                       See more
                     </button>
+                      </Link>
                   </div>
                 </div>
 
