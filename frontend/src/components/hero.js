@@ -66,8 +66,6 @@ NMOLD is a leading provider of premium lighting and home automation solutions, d
            
             </SwiperSlide>
             <SwiperSlide>
-              {/* <h1 className=" absolute text-gray-600 text-7xl font-josefin top-10 left-[500PX] blur-sm ">OUR PROJECTS</h1>
-              <h1 className=" absolute text-white text-7xl font-josefin top-10 left-[500PX]  ">OUR PROJECTS</h1> */}
               <img
                 className=" h-screen w-full object-cover"
                 src="./lg9.png"
@@ -75,11 +73,11 @@ NMOLD is a leading provider of premium lighting and home automation solutions, d
               />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                className="h-[200px] sm:h-[300px] md:h-[500px] lg:h-[750px] w-full object-cover"
-                src="./lg12.png"
-                alt="Slide 3"
-              />
+            <img
+    className="h-[40vh] sm:h-[60vh] md:h-[75vh] lg:h-screen w-full object-cover"
+    src="./lg12.png"
+    alt="Slide 3"
+  />
             </SwiperSlide>
           </Swiper>
         </div>

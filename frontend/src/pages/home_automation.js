@@ -38,23 +38,23 @@ const Home_automation = () => {
   <div
     data-aos="fade-up"
     data-aos-delay="150"
-    className="flex flex-col-reverse lg:flex-row items-center lg:items-start"
+    className="flex flex-col lg:flex-row items-center lg:items-start"
   >
     {/* Text Content */}
-    <div className="px-6 lg:px-20 mt-10 lg:mt-40">
-      <h1 className="font-semibold bg-gradient-to-tr text from-yellow-500 via-blue-500 to-indigo-500 text-transparent bg-clip-text font-josefin text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+    <div className="px-4 sm:px-6 md:px-12 lg:px-20 mt-6 lg:mt-40">
+      <h1 className="font-semibold bg-gradient-to-tr from-yellow-500 via-blue-500 to-indigo-500 text-transparent bg-clip-text font-josefin text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
         Revolutionize<br />
-        &ensp;Your Home
+        <span className="ml-2 lg:ml-4">Your Home</span>
       </h1>
-      <p className="text-gray-800 text-base sm:text-lg w-full sm:w-[90%] md:w-[70%] lg:w-[550px] ml-0 lg:ml-10 mt-5 font-medium font-jost">
+      <p className="text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl w-full sm:w-[90%] md:w-[75%] lg:w-[60%] xl:w-[550px] mt-4 lg:mt-6 font-medium font-jost">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem libero enim voluptas, reiciendis provident molestias, numquam quis explicabo veritatis a reprehenderit accusantium culpa neque beatae dicta ducimus. Maxime impedit consequatur sunt asperiores minima possimus esse nisi eum! Illum, tempora hic?
       </p>
     </div>
 
     {/* Image */}
-    <div className="flex justify-center lg:ml-40">
+    <div className="flex justify-center mt-6 lg:mt-0 lg:ml-10">
       <img
-        className="object-cover h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] w-full max-w-[400px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-none"
+        className="object-cover h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-none"
         src="./hm.png"
         alt=""
       />
@@ -65,7 +65,7 @@ const Home_automation = () => {
 <SwiperSlide>
   <div>
     <img
-      className="object-cover h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] w-full"
+      className="object-cover h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] w-full"
       src="./banner.png"
       alt=""
     />

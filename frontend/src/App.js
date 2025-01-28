@@ -6,14 +6,13 @@ import Contact from "./pages/contact";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LightingProjects from "./pages/Iighting_projects";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+// import AOS from 'aos';
+// import 'aos/dist/aos.css'; 
 import Consulting from "./pages/consulting";
 import Energy_consulting from "./pages/Energy_consulting";
 import Product_info from "./components/Product_info";
 import Lighting from "./components/Lighting";
 import Electrical_consulting from "./pages/Electrical_consulting";
-// import Industrial_automation from "./pages/industrial_automation";
 import Automation from "./pages/Automation";
 import Home_automation from "./pages/home_automation";
 import Lighting_automation from "./pages/automation/lighting_automation";
@@ -27,7 +26,7 @@ import MonitorAndServices from "./pages/automation/monitorandservices";
 import Security from "./pages/automation/security";
 import Visualization from "./pages/automation/visualization";
 import Fullintegration from "./pages/automation/fullintegration";
-AOS.init();
+// AOS.init();
 
 
 
@@ -71,10 +70,6 @@ const App = () => {
       path:"/electrical-consulting",
       element:<><Navbar/><Electrical_consulting/></>
     },
-    // {
-    //   path:"/industrial-automation",
-    //   element:<><Navbar/><Industrial_automation/></>
-    // },
     {
       path:"/automation",
       element:<><Navbar/><Automation/></>

@@ -4,22 +4,32 @@ const LightingProjects = () => {
   return (
    <>
    <div>
-   <div  data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" className=" relative pb-10 ">
-    <h1 className=' font-josefin font-semibold text-4xl absolute left-[600px] top-32 text-brown-50 z-50 '>OUR PROJECTS</h1>
+   <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" className="relative pb-10">
+  {/* Section Title */}
+  <h1 className="font-josefin font-semibold text-2xl sm:text-3xl lg:text-4xl absolute left-1/2 transform -translate-x-1/2 top-10 sm:top-16 lg:top-32 text-brown-50 z-50 text-center">
+    OUR PROJECTS
+  </h1>
+
   {/* Image Container */}
-  <img
-    className="z-0 ml-[300px] h-[300px] w-[900px] object-cover"
-    src="./project_img.png"
-    alt=""
-  />
-  
-  {/* Overlay Div */}
-  <div className="absolute ml-[300px]  inset-0 bg-black bg-opacity-40 h-[300px] w-[900px] z-10"></div>
+  <div className="relative mx-auto max-w-[90%] lg:max-w-[900px] h-[200px] sm:h-[250px] lg:h-[300px]">
+    <img
+      className="z-0 h-full w-full object-cover"
+      src="./project_img.png"
+      alt=""
+    />
+    {/* Overlay Div */}
+    <div className="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
+  </div>
 </div>
-<h2 data-aos="fade-right" className=' text-center font-josefin text-4xl py-16'>
+
+{/* Section Subtitle */}
+<h2
+  data-aos="fade-right"
+  className="text-center font-josefin text-2xl sm:text-3xl lg:text-4xl py-8 sm:py-12 lg:py-16"
+>
   Lighting Projects
 </h2>
+
 
 
    <div data-aos="fade-up" data-aos-delay="500" class=" pt-4 pb-2    grid grid-cols-2 gap-4 md:grid-cols-4 bg-neutral-800">

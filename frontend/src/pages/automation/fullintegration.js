@@ -17,22 +17,28 @@ const Fullintegration = () => {
     </Link>
   </div>
 </div>
-<div className='bg-black h-[70vh] flex justify-between px-40 items-center'>
-				<div className=' text-white'>
-					<h2 class='text-5xl font-josefin font-semibold  dark:text-white'>
-                    Centralized Control, Simplified Living
-					</h2>
-					<p class='text-xl font-jost w-[40rem] mt-4'>
-					Gone are the days of juggling multiple remotes or apps. With centralized control, you can manage every aspect of your home from a single interface. Use a stylish wall-mounted panel for quick adjustments or your phone/tablet when you’re on the go. The system is intuitive, easy to use, and designed to simplify your daily life.
-					</p>
-				</div>
-				<div>
-					<img
-						className='h-[420px] aspect-square object-cover'
-						src="./multimedia2.png"
-					/>
-				</div>
-			</div>
+<div className="bg-black py-10 lg:py-20 flex flex-col lg:flex-row justify-between px-6 sm:px-12 md:px-20 lg:px-40 items-center">
+  <div className="text-white mb-8 lg:mb-0 lg:w-[50%]">
+    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-josefin font-semibold dark:text-white">
+      Centralized Control, Simplified Living
+    </h2>
+    <p className="text-lg sm:text-xl font-jost mt-4 lg:w-[80%]">
+      Gone are the days of juggling multiple remotes or apps. With centralized
+      control, you can manage every aspect of your home from a single interface.
+      Use a stylish wall-mounted panel for quick adjustments or your phone/tablet
+      when you’re on the go. The system is intuitive, easy to use, and designed to
+      simplify your daily life.
+    </p>
+  </div>
+  <div className="lg:w-[40%]">
+    <img
+      className="h-[280px] sm:h-[350px] md:h-[420px] lg:h-[480px] w-full object-cover"
+      src="./multimedia2.png"
+      alt="Centralized Control"
+    />
+  </div>
+</div>
+
 <section class="w-full mx-auto py-10 bg-gray-50 dark:bg-gray-900 dark:text-white">
   <div class="w-full h-full flex flex-col items-center md:py-4 py-10">
 

@@ -21,6 +21,7 @@ const Home = () => {
   }, []);
   return (
     <div>
+
        <Hero/>
       <Services/>
       <Grow/>
