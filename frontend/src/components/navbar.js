@@ -10,7 +10,7 @@ const Navbar = () => {
   const [service2, setService2] = useState(true);
   const [automation, setAutomation] = useState(true);
   const [consulting, setConsulting] = useState(true);
-  const [mobile, setMobile] = useState(true)
+  const [mobile, setMobile] = useState(false)
   return (
     <>
       <div className="hidden lg:flex">
@@ -214,41 +214,41 @@ const Navbar = () => {
               </div>
               <div className="mt-20 ml-10 ">
                 <ul className="flex flex-col text-3xl">
-                  <Link to={"/"}>
+                  <Link to={"/"} onClick={() => setMobile(false)}  >
                   <li className="mt-4">Home</li>
                   </Link>
-                  <Link to={"/projects"}>
+                  <Link to={"/projects"} onClick={() => setMobile(false)} >
                   <li className="mt-4">Projects</li>
                   </Link>
                   <li className="mt-4" onClick={() => setMobileService(!mobileService)}>Services
                   </li>
                   <div className={`transition-all ease-linear duration-200 ${mobileService ? "h-0 overflow-hidden" : "mt-2 h-auto"} ml-5 text-xl flex flex-col gap-1 text-md`}>
-                  <Link to={"/automation"}>
+                  <Link to={"/automation"} onClick={() => setMobile(false)} >
                     <h1 onClick={() => setMobileAutomation(!mobileAutomation)}>Automation</h1>
                   </Link>
-                  <Link to={"/home-automation"}>
+                  <Link to={"/home-automation"} onClick={() => setMobile(false)} >
                     <div className={`transition-all ease-linear duration-200 ${mobileAutomation ? "h-0 overflow-hidden" : "h-8"} ml-10 text-base`}>Home Automation</div>
                   </Link>
 
-                  <Link to={"/consulting"}>
+                  <Link to={"/consulting"} onClick={() => setMobile(false)} >
                     <h1 onClick={() => setMobileConsulting(!mobileCounsulting)}>Consulting</h1>
                   </Link>
                     <div className={`transition-all ease-linear duration-200 ${mobileCounsulting ? "h-0 overflow-hidden" : "h-16"} ml-10 text-base`}>
-                      <Link to={"/energy-consulting"}>
+                      <Link to={"/energy-consulting"} onClick={() => setMobile(false)} >
                       <h1>Energy Consulting & Auditing</h1>
                       </Link>
-                      <Link to={"/electrical-consulting"}>
+                      <Link to={"/electrical-consulting"} onClick={() => setMobile(false)} >
                       <h1>Electrical Consulting & Auditing</h1>
                       </Link>
                     </div>
-                    <Link to={"/engineering"}>
+                    <Link to={"/engineering"} onClick={() => setMobile(false)}>
                     <h1>Engineering</h1>
                     </Link>
-                    <Link to={"/lighting"}>
+                    <Link to={"/lighting"} onClick={() => setMobile(false)}>
                     <h1>Lighting</h1>
                     </Link>
                   </div>
-                  <Link to={"/contact"}>
+                  <Link to={"/contact"} onClick={() => setMobile(false)}>
                   <li className="mt-4">Contact Us</li>
                   </Link>
                 </ul>

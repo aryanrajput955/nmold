@@ -5,7 +5,7 @@ const Projects = () => {
     <>
       <div className="flex flex-col lg:flex-row gap-6 lg:gap-36 pb-12 items-center lg:items-start">
         {/* Images Section */}
-        <div className="flex gap-5 justify-center lg:ml-52">
+        <div className="  flex gap-5 justify-center lg:ml-52">
           <img data-aos="fade-down"
             className="h-[300px] w-[150px] lg:h-[500px] lg:w-[250px] rounded-[50px] lg:rounded-[70px]"
             src="./lg1.png"

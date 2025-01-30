@@ -6,7 +6,7 @@ const LightingProjects = () => {
    <div>
    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" className="relative pb-10">
   {/* Section Title */}
-  <h1 className="font-josefin font-semibold text-2xl sm:text-3xl lg:text-4xl absolute left-1/2 transform -translate-x-1/2 top-10 sm:top-16 lg:top-32 text-brown-50 z-50 text-center">
+  <h1 className="font-josefin font-semibold text-2xl sm:text-3xl lg:text-4xl absolute left-1/2 transform -translate-x-1/2 top-10 sm:top-16 lg:top-32 text-brown-50 z-40 text-center">
     OUR PROJECTS
   </h1>
 
