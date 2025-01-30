@@ -70,7 +70,7 @@ const Navbar = () => {
         </nav>
         {/* Service dropdown */}
         <div
-          className={`${servicefinal ? "h-0 overflow-hidden" : "h-auto bg-[#1f1f1f]"} absolute top-14 right-[38rem] z-40 text-white w-[15rem]`}
+          className={`${servicefinal ? "h-0 overflow-hidden" : "h-auto bg-[#1f1f1f]"} absolute top-14 right-[38rem] z-50 text-white w-[15rem]`}
           onMouseEnter={() => {
             setServiceFinal(false);
           }}
@@ -214,22 +214,43 @@ const Navbar = () => {
               </div>
               <div className="mt-20 ml-10 ">
                 <ul className="flex flex-col text-3xl">
+                  <Link to={"/"}>
                   <li className="mt-4">Home</li>
+                  </Link>
+                  <Link to={"/projects"}>
                   <li className="mt-4">Projects</li>
+                  </Link>
                   <li className="mt-4" onClick={() => setMobileService(!mobileService)}>Services
                   </li>
                   <div className={`transition-all ease-linear duration-200 ${mobileService ? "h-0 overflow-hidden" : "mt-2 h-auto"} ml-5 text-xl flex flex-col gap-1 text-md`}>
+                  <Link to={"/automation"}>
                     <h1 onClick={() => setMobileAutomation(!mobileAutomation)}>Automation</h1>
+                  </Link>
+                  <Link to={"/home-automation"}>
                     <div className={`transition-all ease-linear duration-200 ${mobileAutomation ? "h-0 overflow-hidden" : "h-8"} ml-10 text-base`}>Home Automation</div>
+                  </Link>
+
+                  <Link to={"/consulting"}>
                     <h1 onClick={() => setMobileConsulting(!mobileCounsulting)}>Consulting</h1>
+                  </Link>
                     <div className={`transition-all ease-linear duration-200 ${mobileCounsulting ? "h-0 overflow-hidden" : "h-16"} ml-10 text-base`}>
+                      <Link to={"/energy-consulting"}>
                       <h1>Energy Consulting & Auditing</h1>
+                      </Link>
+                      <Link to={"/electrical-consulting"}>
                       <h1>Electrical Consulting & Auditing</h1>
+                      </Link>
                     </div>
+                    <Link to={"/engineering"}>
                     <h1>Engineering</h1>
+                    </Link>
+                    <Link to={"/lighting"}>
                     <h1>Lighting</h1>
+                    </Link>
                   </div>
+                  <Link to={"/contact"}>
                   <li className="mt-4">Contact Us</li>
+                  </Link>
                 </ul>
               </div>
             </div>

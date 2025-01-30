@@ -18,7 +18,7 @@ const Electrical_consulting = () => {
 
      <div  data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" className="  relative pt-4 ">
-    <h1 className=' font-josefin font-semibold text-4xl absolute left-[500px] top-32 text-brown-50 z-50 '> Electrical Consulting & Projects</h1>
+    <h1 className=' font-josefin font-semibold text-4xl absolute left-[500px] top-32 text-brown-50 z-40 '> Electrical Consulting & Projects</h1>
   {/* Image Container */}
   <img
     className="z-0 ml-[300px] h-[300px] w-[900px] object-cover"
